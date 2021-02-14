@@ -1,0 +1,7 @@
+.find-box__friends {
+  height: 150px;
+  line-height: 150px;
+  font-size: var(--font-medium);
+  text-align: center;
+  color: var(--color-lightgray);
+}

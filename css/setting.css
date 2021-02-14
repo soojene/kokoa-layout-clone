@@ -1,0 +1,7 @@
+.setting-box {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+  overflow-y: scroll;
+  background-color: burlywood;
+}

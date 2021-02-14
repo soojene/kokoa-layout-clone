@@ -1,0 +1,19 @@
+:root {
+  /* color */
+  --color-white: white;
+  --color-theme: rgb(107, 67, 201);
+  --color-lightTheme: rgba(107, 67, 201, 0.404);
+  --color-black: rgba(0, 0, 0, 0.836);
+  --color-grayfont: rgba(0, 0, 0, 0.74);
+  --color-lightgray: rgba(0, 0, 0, 0.13);
+
+  /* font */
+  --font-smaller: 11px;
+  --font-small: 13px;
+  --font-medium: 15px;
+  --font-big: 25px;
+
+  /* border */
+  /* shadow */
+  /* animation */
+}

@@ -1,0 +1,14 @@
+.friend-diplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: smaller;
+  color: rgb(182, 182, 182);
+  padding: 15px 0px;
+  background-color: rgba(49, 49, 49, 0.041);
+}
+
+.friend-diplay span {
+  color: rgba(0, 0, 0, 0.692);
+  margin: 0px 10px;
+}

@@ -1,0 +1,36 @@
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  /* background-color: aqua; */
+}
+
+.status-bar__colum {
+  width: 33%;
+  display: flex;
+  align-items: center;
+}
+.status-bar__colum:first-child span {
+  margin-right: 5px;
+}
+.status-bar__colum:nth-child(2) {
+  justify-content: center;
+}
+
+.status-bar__colum:last-child {
+  justify-content: flex-end;
+}
+
+.status-bar__colum:last-child span {
+  margin: 0px 5px;
+}
+
+.fa-bluetooth {
+  color: rgb(4, 4, 158);
+}
+
+.fa-bolt {
+  color: rgb(77, 194, 62);
+  margin-left: 5px;
+}

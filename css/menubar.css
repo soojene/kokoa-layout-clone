@@ -1,0 +1,51 @@
+.menu-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border-top: var(--color-lightgray) solid 0.3px;
+  background-color: rgba(0, 0, 0, 0.068);
+}
+
+.menu-bar__icons:nth-child(2),
+.menu-bar__icons:last-child {
+  position: relative;
+}
+
+#numberOfNotification {
+  position: absolute;
+  left: 15px;
+  bottom: 11px;
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+  line-height: 15px;
+  text-align: center;
+  font-size: 11px;
+  color: white;
+  background-color: tomato;
+}
+
+#moreNotification {
+  position: absolute;
+  left: 23px;
+  bottom: 17px;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: tomato;
+}
+
+.menu-bar__icons a {
+  color: var(--color-black);
+  cursor: pointer;
+}
+
+.menu-bar__icons a:hover {
+  color: var(--color-theme);
+}

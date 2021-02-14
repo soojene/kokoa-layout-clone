@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/kokoa.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome KokoaTalk</title>
 </head>
 <body>
-    
+    <div class="status-bar">
+        <div class="status-bar__colum">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__colum">
+            <span>03:15</span>
+        </div>
+        <div class="status-bar__colum">
+            <i class="fab fa-bluetooth"></i>
+            <span>18%</span>
+            <i class="fas fa-battery-quarter fa-lg"></i>
+            <i class="fas fa-bolt fa-xs"></i>
+        </div>
+    </div>
+
+    <header class="welcom-box">
+        <h2 class="welcom-box__title">Welcome to KokoaTalk</h2>
+        <p class="welcom-box__text">If you have a Kokoa Account, log in with your email or phone number.</p>
+    </header>
+
+    <main class="access-box">
+        <form action="friend.html" method="GET" class="access-box__form">
+            <input type="text" placeholder="Email or Phone number">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Log In">
+        </form>
+        <button class="access-box__join">Sign Up</button>
+        <a class="access-box__hyperlink" href="#"> Find Kokoa Account or Password</a>
+    </main>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
 </html>
