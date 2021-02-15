@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   background-color: #8c53ff;
-  z-index: 1;
+  z-index: 99;
 }
 
 .device__screen-size h1 {
