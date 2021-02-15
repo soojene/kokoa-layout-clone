@@ -10,8 +10,9 @@
   color: var(--color-lightgray);
 }
 .find-box__openChats {
-  height: 500px;
-  overflow-y: scroll;
+  /* height: 250px; */
+  margin-bottom: 30px;
+  /* overflow-y: scroll; */
   /* background-color: aqua; */
 }
 
