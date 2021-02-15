@@ -1,7 +1,7 @@
 .device__screen-size {
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
