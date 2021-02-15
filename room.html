@@ -29,31 +29,48 @@
             <a href="chat.html">
                 <i class="fas fa-chevron-left"></i>
             </a>
-            <span class="nav-bar__title">Mark Joan</span>
+            <span id="chatRoom" class="nav-bar__title">Malja</span>
             <div>
                 <i class="fas fa-search"></i>
                 <i class="fas fa-bars"></i>
             </div>
         </nav>
 
-        <div class="chatting-room__date">
-            <span>Tuesday, Feburary 25, 2021</span>
-        </div>
+        <main class="chatting__box">
+            <div class="chatting__box-date">
+                <span>Tuesday, Feburary 25, 2021</span>
+            </div>
 
-        <ul class="chatting-room__box">
-            <li class="chatting-boxs__friend">
-                <img src="" alt="">
-                <div>
+            <ul class="chatting__box-chat">
+            <li class="chat-list chat-list--friend">
+                <img class="chat-list__img" 
+                    src="img/p.png" 
+                    style="width: 50px; height: 50px;">
+                <div class="chat-list__detail">
                     <span>Mark Joan</span>
-                    <div>
-                        <h4>Hi!</h4>
+                    <div class="chat__bubble-friend">
+                        <h4>Hey! I finally got it!
+                        </h4>
                         <h6>21:43</h6>
                     </div>
                 </div>
             </li>
-        </ul>
-
-
+            <li class="chat-list chat-list--user">
+                <div class="chat__bubble-user">
+                    <h4>oh!! wow!!!</h4>
+                    <h6>21:48</h6>
+                </div>
+            </li>
+            </ul>
+        </main>
+        <div class="typing-bar">
+            <i class="far fa-plus-square"></i>
+            <div class="typing-bar__box">
+                <input type="text" placeholder="write a message...">
+                <i id="emoticon" class="far fa-grimace"></i>
+                <i class="fas fa-arrow-alt-circle-up"></i>
+            </div>
+        </div>
     </div>
 
     <div class="device__screen-size">

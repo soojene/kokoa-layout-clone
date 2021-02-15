@@ -29,6 +29,7 @@
   font-size: 11px;
   color: white;
   background-color: tomato;
+  animation: 1s notificationAnimation ease infinite;
 }
 
 #moreNotification {

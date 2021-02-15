@@ -37,4 +37,5 @@
 .fa-bolt {
   /* color: rgb(77, 194, 62); */
   margin-left: 5px;
+  animation: splashScreen 4s linear infinite;
 }

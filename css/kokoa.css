@@ -13,7 +13,8 @@ body {
 .chat-box,
 .friends-box,
 .find-box,
-.more-box {
+.more-box,
+.chatting__box {
   padding: 5px 15px;
   /* background-color: burlywood; */
 }
@@ -81,6 +82,7 @@ body {
   color: white;
   text-align: center;
   background-color: tomato;
+  animation: 1s notificationAnimation ease infinite;
 }
 
 .friend-info:nth-child(2) {
@@ -152,4 +154,77 @@ body {
 
 .tools-items:hover {
   color: var(--color-theme);
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  40% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-in;
+  }
+  82% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(-3px);
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes splashScreen {
+  0% {
+    opacity: 1;
+    color: rgb(245, 52, 84);
+  }
+  25% {
+    color: rgb(35, 204, 226);
+  }
+  75% {
+    opacity: 1;
+    color: rgb(25, 77, 235);
+  }
+  100% {
+    color: rgb(107, 33, 245);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes slide-in-from-left {
+  0% {
+    transform: translateZ(-1400px) translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0) translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-from-right {
+  0% {
+    transform: translateZ(-1400px) translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0) translateX(0);
+    opacity: 1;
+  }
 }

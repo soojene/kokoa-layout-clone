@@ -46,3 +46,22 @@
 .nav-bar i:active {
   transform: scale(0.97);
 }
+
+.fa-cog {
+  animation: turningCog 3s ease infinite;
+}
+
+@keyframes turningCog {
+  0% {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: rotateY(-180deg);
+    color: rgb(119, 0, 255);
+  }
+  100% {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
