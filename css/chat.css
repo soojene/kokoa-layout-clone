@@ -1,3 +1,7 @@
+@import "status.css";
+@import "navbar.css";
+@import "menubar.css";
+
 .chat-box a,
 .chat-box li {
   text-decoration: none;

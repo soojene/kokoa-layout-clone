@@ -1,9 +1,13 @@
 .status-bar {
+  width: 100%;
+  position: fixed;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 5px 10px;
-  /* background-color: aqua; */
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.897);
 }
 
 .status-bar__colum {
@@ -31,6 +35,6 @@
 }
 
 .fa-bolt {
-  color: rgb(77, 194, 62);
+  /* color: rgb(77, 194, 62); */
   margin-left: 5px;
 }

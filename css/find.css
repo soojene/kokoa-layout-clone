@@ -1,7 +1,82 @@
+@import "status.css";
+@import "navbar.css";
+@import "menubar.css";
+
 .find-box__friends {
   height: 150px;
   line-height: 150px;
   font-size: var(--font-medium);
   text-align: center;
   color: var(--color-lightgray);
+}
+.find-box__openChats {
+  height: 200px;
+  overflow-y: scroll;
+  /* background-color: aqua; */
+}
+
+.list-openChats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: var(--color-lightgray) 0.5px solid;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  /* background-color: tomato; */
+}
+
+.openChat-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80px;
+  /* background-color: thistle; */
+}
+
+.openChat-info__title {
+  font-size: var(--font-medium);
+}
+
+.openChat-info__hashtage {
+  font-size: var(--font-small);
+  color: var(--color-lightgray);
+}
+
+.openChat-info__detail {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-smaller);
+  color: var(--color-lightgray);
+}
+
+.openChat-info__detail img {
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.info__detail-pink {
+  border-left: solid 1px var(--color-lightgray);
+  color: violet;
+  margin-left: 5px;
+  padding: 0px 5px;
+}
+.openChat-img {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.openChat-img img {
+  border-radius: 5px;
+}
+.openChat-img__likeit {
+  position: absolute;
+  bottom: 3px;
+  left: 25px;
+  font-weight: light;
+  font-size: 10px;
+  color: var(--color-white);
+  padding: 4px 10px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.486);
 }

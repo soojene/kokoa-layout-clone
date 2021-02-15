@@ -1,3 +1,7 @@
+@import "status.css";
+@import "navbar.css";
+@import "menubar.css";
+
 .friend-diplay {
   display: flex;
   align-items: center;
@@ -5,7 +9,7 @@
   font-size: smaller;
   color: rgb(182, 182, 182);
   padding: 15px 0px;
-  background-color: rgba(49, 49, 49, 0.041);
+  background-color: rgba(47, 0, 255, 0.041);
 }
 
 .friend-diplay span {

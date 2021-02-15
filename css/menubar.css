@@ -9,7 +9,7 @@
   padding: 10px 15px;
   box-sizing: border-box;
   border-top: var(--color-lightgray) solid 0.3px;
-  background-color: rgba(0, 0, 0, 0.068);
+  background-color: rgba(216, 205, 248, 0.952);
 }
 
 .menu-bar__icons:nth-child(2),
@@ -39,6 +39,10 @@
   height: 4px;
   border-radius: 2px;
   background-color: tomato;
+}
+
+.fa-heart {
+  color: var(--color-theme);
 }
 
 .menu-bar__icons a {

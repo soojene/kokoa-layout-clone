@@ -1,0 +1,31 @@
+@import "status.css";
+@import "navbar.css";
+@import "menubar.css";
+
+.user-box i {
+  color: var(--color-grayfont);
+}
+
+.user-info__detail i {
+  color: tomato;
+}
+
+.tools-items__img {
+  border-radius: 10px;
+}
+
+.more__items-name {
+  font-size: var(--font-smaller);
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.548);
+}
+
+#notification-drive {
+  position: absolute;
+  right: 10px;
+  top: -5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: tomato;
+}

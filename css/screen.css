@@ -1,0 +1,23 @@
+.device__screen-size {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #8c53ff;
+  z-index: 1;
+}
+
+.device__screen-size h1 {
+  font-size: var(--font-big);
+  color: rgba(255, 255, 255, 0.589);
+}
+
+@media screen and (max-width: 500px) {
+  .device__screen-size {
+    display: none;
+  }
+}
