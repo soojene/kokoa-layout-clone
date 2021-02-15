@@ -3,8 +3,8 @@
 @import "menubar.css";
 
 .find-box__friends {
-  height: 150px;
-  line-height: 150px;
+  height: 250px;
+  line-height: 250px;
   font-size: var(--font-medium);
   text-align: center;
   color: var(--color-lightgray);

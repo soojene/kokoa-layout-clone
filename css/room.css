@@ -1,2 +1,9 @@
 @import "status.css";
 @import "navbar.css";
+
+#chatting-room {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-lightTheme);
+}
